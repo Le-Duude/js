@@ -3,9 +3,23 @@
   <head>
     <meta charset="utf-8">
     <title>je fais du js</title>
+    <p id="truc">ceci est du texte</p>
+    <script src="./assets/function/leapyear.js" type="text/javascript"></script>
   </head>
   <body>
-    <script type="text/javascript" src="./assets/js/script.js"></script>
+    <script>
+      let reponse = prompt('quelle année ?');
+
+      if (isLeapYear(reponse)) {
+        alert('wesh');
+      }
+      else {
+        alert('not wesh!');
+      }
+    </script>
+
+
+
 
              <!-- Pour écrire :
              window.document.write('Je fais du JS');
@@ -16,4 +30,5 @@
 
     </script>
   </body>
+
 </html>
